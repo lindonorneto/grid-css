@@ -16,14 +16,17 @@ Responsive Grid, criado com a feature do css3 **Grid Layout**
 > `*` : Número de colunas 
 
 ## Como usar
-1. Defina um elemento pai com a classe `grid`;
-2. Adicione as classes nos elementos filhos de acordo com o breakpoint que você deseja
+1. Importe o css para o html;
+2. Defina um elemento pai com a classe `grid`;
+3. Adicione as classes nos elementos filhos de acordo com o breakpoint que você deseja
 
 >Exemplo
 ```
+<link rel="stylesheet" href="dist/grid.min.css">
+
 <section class="grid">
     <div class="col_p_12 col_t_6">
-        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla velit deleniti accusamus quae. Nostrum cumque culpa asperiores tempore quaerat. Nulla labore ducimus, quod dolor unde architecto sequi accusamus tempora odio?</span>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla velit deleniti accusamus quae.</span>
     </div>
 </section>
 ```
